@@ -1,0 +1,35 @@
+#cont {
+    display: flex;
+    justify-content: space-between; /* Moves ul to one side and button to the other */
+    align-items: center; /* Ensures vertical alignment */
+    background-color: rgb(208, 181, 25);
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none; /* Removes bullets from list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Aligns list items horizontally */
+  }
+  
+  li {
+    margin-right: 20px; /* Adds spacing between list items */
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(134, 21, 21);
+    color: white;
+    font-weight: bold;
+  }
+  button:hover{
+    background-color: rgb(247, 21, 21);
+  
+  }
+  
